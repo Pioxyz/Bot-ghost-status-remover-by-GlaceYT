@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   res.send('YaY Your Bot Status Changed✨');
 });
 app.listen(port, () => {
-  console.log(`🔗 Listening to RTX: http://localhost:${port}`);
-  console.log(`🔗 Powered By RTX`);
+  console.log(`🔗 Listening to NegroSlayer ListeningParty: http://localhost:${port}`);
+  console.log(`🔗 Powered By NS`);
 });
 
 
-const statusMessages = ["PLAYING","MUSIC"];
+const statusMessages = ["Leggendo Ns","Ascoltando il Reading Party di NS"];
 
 
 let currentIndex = 0;
